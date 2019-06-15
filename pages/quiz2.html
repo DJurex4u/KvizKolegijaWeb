@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kviz Lv2</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/script1.js"></script>
+</head>
+
+<body>
+
+    <h2 id="header">DOBRODOŠLI NA KVIZ 2</h2>
+
+
+    <form id="quiz" name="quiz">
+
+        <p class="questions">Što predstavlja URL kratica?</p>
+        <input type="radio" id="mc" name="question1" value="Ultra Rapid Lube">Ultra Rapid Lube<br>
+        <input type="radio" id="mc" name="question1" value="T">Uniform Resource Locator<br>
+        <input type="radio" id="mc" name="question1" value="Ultron tock Line">Ultron tock Line<br>
+        <input type="radio" id="mc" name="question1" value="Upper Resource Look">Upper Resource Look<br>
+
+        <p class="questions">Putanja može biti Apsolutna i ...</p>
+
+        <input type="radio" id="mc" name="question2" value="Neapsolutna"> Neapsolutna <br>
+        <input type="radio" id="mc" name="question2" value="Relatisticna"> Relatisticna <br>
+        <input type="radio" id="mc" name="question2" value="T">Relativna<br>
+        <input type="radio" id="mc" name="question2" value="Direktna"> Direktna <br>
+
+        <p class="questions">Što omogucava povezivanje dokumenta i resursa?</p>
+
+        <input type="radio" id="mc" name="question3" value="Autoputi">Autoputi<br>
+        <input type="radio" id="mc" name="question3" value="Dretve">Dretve<br>
+        <input type="radio" id="mc" name="question3" value="Linkovi">Linkovi<br>
+        <input type="radio" id="mc" name="question3" value="T"> Hiperveze<br>
+
+        <p class="questions">Kada postoji potreba da se neki sadžaj proteše kroz više redova/ stupaca, koristimo:</p>
+
+        <input type="radio" id="mc" name="question4" value="T">rowspan i colspan<br>
+        <input type="radio" id="mc" name="question4" value="throughtrow i throughtcol">throughtrow i throughtcol<br>
+        <input type="radio" id="mc" name="question4" value="rowmerge i colmerge">rowmerge i colmerge<br>
+        <input type="radio" id="mc" name="question4" value="row i collumn">row i collumn<br>
+
+
+        <input id="button" type="button" value="I'm finished!" onclick="check(1);">
+    </form>
+    <div id="after_submit">
+        <p id="number_correct"></p>
+        <p id="message"></p>
+        <img id="picture">
+        <p id="natrag_na_izbornik"><a href="index.html">Natrag na izbornik</a></p>
+    </div>
+
+
+</body>
+
+</html>

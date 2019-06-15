@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kviz Lv1</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/script1.js"></script>
+</head>
+
+<body>
+
+    <h2 id="header">DOBRODOŠLI NA KVIZ 1</h2>
+
+
+    <form id="quiz" name="quiz">
+
+        <p class="questions">HTML je kratica za...</p>
+        <input type="radio" id="mc" name="question1" value="Hyper Tuner Mama Ljama">Hyper Tuner Mama Ljama <br>
+        <input type="radio" id="mc" name="question1" value="T"> Hyper Text Markup Language<br>
+        <input type="radio" id="mc" name="question1" value="Hype Toons Microsoftz Life"> Hype Toons Microsoftz Life<br>
+        <input type="radio" id="mc" name="question1" value="Hippo Tone Micro Loop"> Hippo Tone Micro Loop<br>
+
+        <p class="questions">Odaberi string s najvecim fontom.</p>
+
+        <input type="radio" id="mc" name="question2" value="1"> |h3|String|h3| <br>
+        <input type="radio" id="mc" name="question2" value="2>"> "h3"Hello"h2"<br>
+        <input type="radio" id="mc" name="question2" value="3>">/h1/Text/h1/<br>
+        <input type="radio" id="mc" name="question2" value="T"> Ništa od navedenog <br>
+
+        <p class="questions">Dvije važne kategorije elemenata u HTMLu?</p>
+        <input type="radio" id="mc" name="question3" value="T">linijski i blok<br>
+        <input type="radio" id="mc" name="question3" value="blok i radni"> blok i radni<br>
+        <input type="radio" id="mc" name="question3" value="linijski i kucanski"> linijski i kucanski<br>
+        <input type="radio" id="mc" name="question3" value="radni i sporedni"> radni i sporedni<br>
+
+        <p class="questions">HTML je...?</p>
+
+        <input type="radio" id="mc" name="question4" value="Programski jezik"> Programski jezik<br>
+        <input type="radio" id="mc" name="question4" value="Znakovni jezik"> Znakovni jezik<br>
+        <input type="radio" id="mc" name="question4" value="Nije jezik"> Nije jezik<br>
+        <input type="radio" id="mc" name="question4" value="T"> Opisni jezik<br>
+
+
+        <input id="button" type="button" value="I'm finished!" onclick="check(1);">
+    </form>
+    <div id="after_submit">
+        <p id="number_correct"></p>
+        <p id="message"></p>
+        <img id="picture">
+        <p id="natrag_na_izbornik"><a href="index.html">Natrag na izbornik</a></p>
+    </div>
+
+
+</body>
+
+</html>

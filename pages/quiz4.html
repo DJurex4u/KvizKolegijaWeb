@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kviz Lv4</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/script1.js"></script>
+</head>
+
+<body>
+
+    <h2 id="header">DOBRODOŠLI NA KVIZ 4</h2>
+
+
+    <form id="quiz" name="quiz">
+
+        <p class="questions">Što koristimo za prikazivanje vece kolicine podataka u obliku liste koju je moguce pomicati gore/dolje?</p>
+        <input type="radio" id="mc" name="question1" value="ViewHolder">ViewHolder<br>
+        <input type="radio" id="mc" name="question1" value="T">RecyclerView<br>
+        <input type="radio" id="mc" name="question1" value="Fragmente">Fragmente<br>
+        <input type="radio" id="mc" name="question1" value="To je nemoguce izvesti">To je nemoguce izvesti<br>
+
+        <p class="questions">Prije dodavanja RecyclerViewa potrebno je komponentu u projekt dodati preko...</p>
+
+        <input type="radio" id="mc" name="question2" value="skripte">skripte<br>
+        <input type="radio" id="mc" name="question2" value="Dodatnog programa">Dodatnog programa<br>
+        <input type="radio" id="mc" name="question2" value="T">Gradle skripte<br>
+        <input type="radio" id="mc" name="question2" value="Linka">Linka<br>
+
+        <p class="questions">RecyclerView komponentu koja se koristi za prikaz podataka potrebno je dodati u...</p>
+
+        <input type="radio" id="mc" name="question3" value="fragment1.xml">fragment1.xml<br>
+        <input type="radio" id="mc" name="question3" value="Fragment1.class">Fragment1.class<br>
+        <input type="radio" id="mc" name="question3" value="MainActivity.class">MainActivity.class<br>
+        <input type="radio" id="mc" name="question3" value="T"> activity_main.xml<br>
+
+        <p class="questions">Što je NOVO korišteno u ovom projektu?</p>
+
+        <input type="radio" id="mc" name="question4" value="T">JavaScript<br>
+        <input type="radio" id="mc" name="question4" value="PHP">PHP<br>
+        <input type="radio" id="mc" name="question4" value="HTML">HTML<br>
+        <input type="radio" id="mc" name="question4" value="Ništa">Ništa<br>
+
+
+        <input id="button" type="button" value="I'm finished!" onclick="check(1);">
+    </form>
+    <div id="after_submit">
+        <p id="number_correct"></p>
+        <p id="message"></p>
+        <img id="picture">
+        <p id="natrag_na_izbornik"><a href="index.html">Natrag na izbornik</a></p>
+    </div>
+
+
+</body>
+
+</html>

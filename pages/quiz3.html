@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kviz Lv3</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/script1.js"></script>
+</head>
+
+<body>
+
+    <h2 id="header">DOBRODOŠLI NA KVIZ 3</h2>
+
+
+    <form id="quiz" name="quiz">
+
+        <p class="questions">Koje je osnovna klasa za UI kontrolu android aplikacije?</p>
+
+        <input type="radio" id="mc" name="question1" value="Layout">Layout<br>
+        <input type="radio" id="mc" name="question1" value="T">View<br>
+        <input type="radio" id="mc" name="question1" value="XML">XML<br>
+        <input type="radio" id="mc" name="question1" value="Ekran">Ekran<br>
+
+        <p class="questions">Za UI kontrolu tekstualnog sadržaja koristimo...</p>
+
+        <input type="radio" id="mc" name="question2" value="TextEditor">TextEditor<br>
+        <input type="radio" id="mc" name="question2" value="NreText">NewText<br>
+        <input type="radio" id="mc" name="question2" value="T">TextView<br>
+        <input type="radio" id="mc" name="question2" value="Ništa"> Ništa od navedenog <br>
+
+        <p class="questions">Wrap content ili Match...</p>
+        <input type="radio" id="mc" name="question3" value="MatchScreen">MatchScreen<br>
+        <input type="radio" id="mc" name="question3" value="MatchPrevious">MatchPrevious<br>
+        <input type="radio" id="mc" name="question3" value="Match1">Match1<br>
+        <input type="radio" id="mc" name="question3" value="T">MatchParent<br>
+
+        <p class="questions">ActivitiMain.class svoj izgled ima definira u...</p>
+
+        <input type="radio" id="mc" name="question4" value="T">activity_main.xml fileu<br>
+        <input type="radio" id="mc" name="question4" value="activity_main.css fileu">activity_main.css fileu<br>
+        <input type="radio" id="mc" name="question4" value="u sebi">u sebi<br>
+        <input type="radio" id="mc" name="question4" value="colors.xml">colors.xml<br>
+
+
+        <input id="button" type="button" value="I'm finished!" onclick="check(1);">
+    </form>
+    <div id="after_submit">
+        <p id="number_correct"></p>
+        <p id="message"></p>
+        <img id="picture">
+        <p id="natrag_na_izbornik"><a href="index.html">Natrag na izbornik</a></p>
+    </div>
+
+
+</body>
+
+</html>

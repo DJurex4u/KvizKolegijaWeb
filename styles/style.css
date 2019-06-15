@@ -1,0 +1,62 @@
+#header {
+    text-align: center;
+}
+
+#quiz {
+    margin-left: 10px;
+    background: #BCAAA4;
+    padding: 10px 20px 10px 20px;
+    /*top right bottom left*/
+    width: 400px;
+    margin: auto;
+    border-radius: 20px;
+    /*zaobljenje*/
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+#button {
+    background: rgb(88, 83, 54);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+#button:hover {
+    background: white;
+    border: 1px solid rgb(88, 83, 54);
+    color: black;
+    cursor: pointer;
+}
+
+#after_submit {
+    visibility: hidden;
+    background: #BCAAA4;
+    padding: 10px 20px 10px 20px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    text-align: center;
+    float: left;
+}
+
+#natrag_na_izbornik {
+    font-size: 20px;
+}
+
+#natrag_na_izbornik:hover {
+    color: white;
+    cursor: pointer;
+    font-size: 21px;
+}
+
+#picture {
+    width: 400px;
+    height: 245px;
+}
